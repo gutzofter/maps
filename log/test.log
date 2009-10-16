@@ -1,0 +1,196 @@
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 11:19:57) [GET]
+  [4;35;1mMarker Load (16.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 93ms (View: 0, DB: 155) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 11:24:29) [GET]
+  [4;35;1mMarker Load (16.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 109ms (View: 0, DB: 48) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 11:25:14) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 110ms (View: 16, DB: 0) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mMarker Load (0.0ms)[0m   [0;1mSELECT * FROM `markers` [0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 11:28:33) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 94ms (View: 0, DB: 32) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mMarker Load (16.0ms)[0m   [0;1mSELECT * FROM `markers` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 12:56:26) [GET]
+  [4;35;1mMarker Load (15.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 78ms (View: 0, DB: 30) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mMarker Load (0.0ms)[0m   [0;1mSELECT * FROM `markers` [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 12:58:03) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 62ms (View: 0, DB: 0) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:01:50) [GET]
+  [4;35;1mMarker Load (16.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 63ms (View: 0, DB: 31) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:08:01) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 62ms (View: 15, DB: 16) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:09:47) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 62ms (View: 15, DB: 0) | 200 OK [http://test.host/chap_three/list]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:14:35) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 62ms (View: 0, DB: 62) | 200 OK [http://test.host/chap_three/list]
+
+
+Processing ChapThreeController#responder (for 0.0.0.0 at 2009-10-08 13:14:35) [GET]
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://test.host/chap_three/responder]
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:18:52) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 78ms (View: 0, DB: 30) | 200 OK [http://test.host/chap_three/list]
+
+
+Processing ChapThreeController#responder (for 0.0.0.0 at 2009-10-08 13:18:52) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/chap_three/responder]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:20:24) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 63ms (View: 16, DB: 0) | 200 OK [http://test.host/chap_three/list]
+
+
+Processing ChapThreeController#responder (for 0.0.0.0 at 2009-10-08 13:20:24) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/chap_three/responder]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:23:44) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 63ms (View: 0, DB: 16) | 200 OK [http://test.host/chap_three/list]
+
+
+Processing ChapThreeController#responder (for 0.0.0.0 at 2009-10-08 13:23:44) [GET]
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://test.host/chap_three/responder]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:24:33) [GET]
+  [4;35;1mMarker Load (16.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 79ms (View: 16, DB: 47) | 200 OK [http://test.host/chap_three/list]
+
+
+Processing ChapThreeController#responder (for 0.0.0.0 at 2009-10-08 13:24:33) [GET]
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://test.host/chap_three/responder]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChapThreeController#list (for 0.0.0.0 at 2009-10-08 13:26:24) [GET]
+  [4;35;1mMarker Load (0.0ms)[0m   [0mSELECT * FROM `markers` [0m
+Completed in 63ms (View: 0, DB: 0) | 200 OK [http://test.host/chap_three/list]
+
+
+Processing ChapThreeController#responder (for 0.0.0.0 at 2009-10-08 13:26:24) [GET]
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://test.host/chap_three/responder]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ChapSixController#map6 (for 0.0.0.0 at 2009-10-11 10:39:44) [GET]
+  [4;35;1mTower Load (0.0ms)[0m   [0mSELECT * FROM `towers` WHERE (state = 'HI' AND latitude < 20.4 AND longitude > -156.34 AND latitude > 18.52 AND longitude < -154.67) [0m
+Rendering chap_six/map6
+Completed in 63ms (View: 47, DB: 94) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ChapSixController#map6 (for 0.0.0.0 at 2009-10-11 10:40:51) [GET]
+  [4;35;1mTower Load (0.0ms)[0m   [0mSELECT * FROM `towers` WHERE (state = 'HI' AND latitude < 20.4 AND longitude > -156.34 AND latitude > 18.52 AND longitude < -154.67) [0m
+Rendering chap_six/map6
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ChapSixController#map6 (for 0.0.0.0 at 2009-10-11 10:55:21) [GET]
+  [4;35;1mTower Load (0.0ms)[0m   [0mSELECT * FROM `towers` WHERE (state = 'HI' AND latitude < 20.4 AND longitude > -156.34 AND latitude > 18.52 AND longitude < -154.67) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing ChapSixController#map6 (for 0.0.0.0 at 2009-10-11 11:01:50) [GET]
+  [4;35;1mTower Load (0.0ms)[0m   [0mSELECT * FROM `towers` WHERE (state = 'HI' AND latitude < 20.4 AND longitude > -156.34 AND latitude > 18.52 AND longitude < -154.67) [0m
+Rendering chap_six/map6
+Completed in 63ms (View: 63, DB: 140) | 200 OK [http://test.host/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (219.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m

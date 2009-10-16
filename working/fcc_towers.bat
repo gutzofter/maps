@@ -1,0 +1,1 @@
+mysqlimport --delete --fields-terminated-by="|" --user=root --password --local maps_development towers.dat

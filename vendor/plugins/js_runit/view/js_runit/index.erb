@@ -1,0 +1,20 @@
+<!-- (c) Troy Taft, 2006.  See ValleyHighlands Free License -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+  <head>
+    <title>Run All JS//RUnit Tests</title>
+    <%= javascript_include_tag 'prototype' %>
+    <%= javascript_include_tag 'js_runit' %>
+
+    <%= javascript_include_tag 'js_tests_example' %>
+
+  </head>
+  <body onload='displayTests()'>
+    <div>
+      <h3>js_runit 0.1 (Test Results)</h3>
+      <div id="testDisplayOutput">Some Error Occurred!</div>
+      <div>Refresh browser to run test again.</div>
+      <div id="parent"></div>
+    </div>
+  </body>
+</html>

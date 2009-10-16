@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+ one:
+   latitude: 19
+   longitude: -155
+   state: 'HI'
+   address: 'no address'
+   city: 'no city'
+   height: 22.1
+   id: 1
+
+
+
+
+# two:
+#   column: value
+
+#      t.column :latitude, :float
+#      t.column :longitude, :float
+#      t.column :state, :string, :limit=>2
+#      tower.address
+#      tower.city
+#      tower.state
+#      tower.height,
+#      tower.id

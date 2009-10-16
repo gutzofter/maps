@@ -1,0 +1,62 @@
+
+root { 
+    display: block;
+}
+
+html { overflow: hidden; }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body { margin: 10px; }
+
+#header {
+    margin-top: 10px;
+    position: relative;
+}
+
+#logo {
+    border: 1px solid black;
+    margin-right: 840px;
+    color: teal;
+}
+
+#toolbar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid black;
+    width: 830px;
+}
+
+#content {
+    margin-top: 10px;
+    position: relative;
+}
+
+#map-wrapper {
+    position: relative;
+    height: 100%;
+    margin-right: 300px;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid black;
+    width: 290px;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid black;
+    width: 100%;
+}
+
+

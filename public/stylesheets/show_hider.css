@@ -1,0 +1,58 @@
+/* 
+    Document   : map_style
+    Created on : Oct 9, 2009, 6:32:25 PM
+    Author     : jgutierrez
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: silver;
+}
+
+#toolbar {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    width: 400px;
+    padding: 5px;
+    background: white;
+    border: 1px solid black;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 95%;
+    overflow: auto;
+    background: gray;
+}
+
+#sidebar {
+    margin: 1px;
+    border: 1px solid black;
+
+    padding: 0px 10px;
+    right: 0px;
+    display: block;
+}
+
+#sidebar-controls {
+    float: right;
+}
+
+#button-sidebar-show {display:none;}
+#button-sidebar-hide {display:block;}
+
+body.sidebar-off #sidebar { display: none; }
+
+body.sidebar-off #button-sidebar-show { display: block; }
+body.sidebar-off #button-sidebar-hide { display: none; }

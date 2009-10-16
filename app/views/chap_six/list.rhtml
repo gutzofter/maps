@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Bread Crumbs | GutZofter</title>
+
+  <%= javascript_include_tag 'prototype','application' %>
+
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAiUfFtyUOSMzYg223RJuvxhTJQa0g3IQ9GZqIMmInSLzwtGDKaBT8yvxK4_np9QfcF_x364DCFUZVtQ" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    var markers = <%=  @towers.to_json %>;
+  </script>
+
+<%= stylesheet_link_tag 'map_style' %>
+</head>
+
+<body id="body" style="overflow: auto;">
+  Count: <%= @towers.length %>
+  <fieldset>
+    <legend>Tower Listing</legend>
+    <table>
+      <tr>
+        <% for column in Tower.content_columns %>
+          <th><%=column.human_name%></th>
+        <% end %>
+      </tr>
+
+
+      <% @towers.each do |tower| %>
+        <tr>
+          <td><%= h(tower.latitude) %></td>
+          <td><%= h(tower.longitude) %></td>
+        </tr>
+      <% end %>
+    </table>
+  </fieldset>
+</body>
+</html>

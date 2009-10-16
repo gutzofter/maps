@@ -1,0 +1,1 @@
+mysqlimport --delete --fields-terminated-by="|" --columns=unique_si,lat_deg,lat_min,lat_sec,lat_dir,latitude,long_deg,long_min,long_sec,long_dir,longitude --user=root --password --local maps_development fcc_locations.dat

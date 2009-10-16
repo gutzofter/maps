@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Bread Crumbs | GutZofter</title>
+
+  <%= javascript_include_tag :defaults %>
+  <%= stylesheet_link_tag 'show_hider' %>
+  
+</head>
+
+<body id="body">
+  <%#*<div style="background :white;">%>
+    <%#= link_to_function 'Toggle Hello World', "Effect.toggle('hello_world', 'blind')" %>
+  <%#*</div>%>
+  <%#*<div id="hello_world" style="display:none">%>
+    <%#*<p>Hello World!</p>%>
+  <%#*</div>%>
+
+  <div id="toolbar">
+    <h3>Sidebar Control</h3>
+    
+    <div id="sidebar-controls">
+      <%=link_to_function 'hide', "Element.addClassName('body', 'sidebar-off')",
+                              {:id => 'button-sidebar-hide'}%>
+      <%=link_to_function 'show', "Element.removeClassName('body', 'sidebar-off')",
+                              {:id => 'button-sidebar-show'}%>
+    </div>
+  </div>
+
+  <div id="sidebar">
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin
+      accumsan condimentum dolor. Vestibulum ante fabicum...</p>
+  </div>
+
+</body>
+</html>

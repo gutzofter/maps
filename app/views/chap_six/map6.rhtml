@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Bread Crumbs | GutZofter</title>
+
+  <%= javascript_include_tag 'prototype', 'google_service','application' %>
+  
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAiUfFtyUOSMzYg223RJuvxhTJQa0g3IQ9GZqIMmInSLzwtGDKaBT8yvxK4_np9QfcF_x364DCFUZVtQ" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    var markers = <%=  @towers.to_json %>;
+  </script>
+
+  <%= stylesheet_link_tag 'map_style' %>
+</head>
+
+<body id="body">
+
+  <div id="toolbar">
+    <h1>Cell-Tower Locations</h1>
+
+    <ul id="filters">
+      <li><%=link_to_function 'All', "filter('All')"%></li>
+      <%@types.each do |type|%>
+        <li><%=link_to_function type, "filter('#{type.chomp}')"%></li>
+      <%end%>
+    </ul>
+    <ul id="sidebar-controls">
+      <li id="sidebar-control-hide">
+        <%= link_href_with_id "hide", {:href => '#', :id => 'button-sidebar-hide'} %>
+      </li>
+      <li id="sidebar-control-show">
+        <%= link_href_with_id "show", {:href => '#', :id => 'button-sidebar-show'} %>
+      </li>
+    </ul>
+    
+  </div>
+
+  <div id="content">
+
+    <div id="map-wrapper">
+      <div id="map"></div>
+    </div>
+    
+    <div id="sidebar" style="height: 540px;">
+      <ul id="sidebar-list">
+        <%  @towers.each do |tower|%>
+          <li id="sidebar-item-<%= tower.id %>">
+            <%= link_to_function "<strong>#{tower.address}</strong> #{tower.city}, #{tower.state} [ #{tower.height} ]meters", "focusPoint(#{tower.id})"%>
+          </li>
+        <%end%>
+      </ul>
+    </div>
+  </div>
+ 
+</body>
+</html>

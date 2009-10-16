@@ -1,0 +1,12 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+ one:
+   lat: 1.0
+   lng: -1.0
+   found: "found"
+   left: "left"
+
+#      t.column :lat, :decimal
+#      t.column :lng, :decimal
+#      t.column :found, :string, :limit=>100
+#      t.column :left, :string, :limit=>100
